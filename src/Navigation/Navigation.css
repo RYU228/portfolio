@@ -1,0 +1,32 @@
+.navigation_container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1% 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px #b9b9b9 solid;
+}
+
+.navigation_ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation_ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.navigation_ul li:hover {
+  color: black;
+}
+
+.navigation_ul li + li {
+  border-left: 1px #b9b9b9 solid;
+}
+
+.color_black {
+  color: black;
+}

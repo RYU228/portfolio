@@ -1,0 +1,67 @@
+.contact_container {
+  background-image: url(../Images/background/wall.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+  animation: slide_contact 1s;
+}
+
+@keyframes slide_contact {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.contact_info {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fffbe7;
+  width: 40%;
+  height: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: 30%;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.contact_title {
+  font-size: 30px;
+  display: block;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.contact_mailIcon {
+  font-size: 30px;
+  display: block;
+  margin-top: 30px;
+}
+
+.contact_content {
+  font-size: 30px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.contact_gitIcon {
+  font-size: 30px;
+  display: block;
+  margin-top: 20px;
+}
+
+.contact_gitContent {
+  font-size: 30px;
+  display: block;
+}

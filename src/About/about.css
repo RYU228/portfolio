@@ -1,0 +1,162 @@
+.about_container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+  animation: slide_about 1s;
+}
+
+@keyframes slide_about {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.about_title {
+  font-family: "Ubuntu", sans-serif;
+  display: block;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 25px;
+  color: #31a5f8;
+}
+
+.about_content {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Open Sans", sans-serif;
+}
+
+.about_content img {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.about_skill {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.skill_title {
+  display: block;
+  font-size: 32px;
+  font-style: italic;
+  margin-bottom: 25px;
+  color: #31a5f8;
+}
+
+.skill_front {
+  border-top: 2px #999999 solid;
+  margin-left: 10px;
+}
+
+.front_title {
+  position: relative;
+  top: -14px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.front_skills {
+  display: flex;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.front_skills div {
+  margin-left: 20px;
+}
+
+.front_skills span {
+  margin-left: 20px;
+}
+
+.html_logo {
+  background-image: url("../Images/skills/html.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 120px;
+}
+
+.css_logo {
+  background-image: url("../Images/skills/css.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 120px;
+}
+
+.javascript_logo {
+  background-image: url("../Images/skills/javascript.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 120px;
+}
+
+.react_logo {
+  background-image: url("../Images/skills/react.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  width: 100px;
+  height: 110px;
+}
+
+.skill_back {
+  border-top: 2px #999999 solid;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+.back_title {
+  position: relative;
+  top: -14px;
+  padding-right: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+
+.back_skills {
+  display: flex;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.back_skills div {
+  margin-left: 20px;
+}
+
+.back_skills span {
+  margin-left: 20px;
+}
+
+.nodejs_logo {
+  background-image: url("../Images/skills/nodejs.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 120px;
+}
+
+.mongodb_logo {
+  background-image: url("../Images/skills/mongodb.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 120px;
+}
+
+.mongoose_logo {
+  background-image: url("../Images/skills/mongoose.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  width: 100px;
+  height: 80px;
+}

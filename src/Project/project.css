@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+.project_container {
+  width: 80%;
+  margin: 0 auto;
+  animation: slide_project 1s;
+}
+
+@keyframes slide_project {
+  0% {
+    transform: translate(-100%, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.project {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  cursor: pointer;
+  -webkit-filter: grayscale(100%) blur(2px);
+  filter: grayscale(100%) blur(2px);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.project:hover {
+  -webkit-filter: grayscale(0) blur(0);
+  filter: grayscale(0) blur(0);
+}
+
+.project_title {
+  font-weight: bold;
+  font-size: 3rem;
+  background-color: #e3f2fd;
+  text-align: center;
+  font-family: "Goldman", cursive;
+  padding: 10% 0;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border: 1px #b9b9b9 solid;
+}
+
+.project_content {
+  font-family: "Open Sans", sans-serif;
+  padding: 10% 0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border: 1px #b9b9b9 solid;
+  border-top: none;
+}
+
+.project_content span {
+  margin: 0px 10px;
+}
