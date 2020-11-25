@@ -1,9 +1,11 @@
 .header_container {
   width: 80%;
   margin: 0 auto;
-  background: linear-gradient(to right, #2c3e50, #bdc3c7);
-  /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+  /* background-color: #1d2d50; */
+
+  background: linear-gradient(to bottom right, #1d2d50 30%, #1e5f74);
   height: 35vh;
+  border: 10px solid #fcdab7;
 }
 
 .header_content {
@@ -27,14 +29,15 @@
 }
 
 .header_changingTitle {
-  color: white;
+  color: #fcdab7;
+  font-size: 28px;
   animation: fadeIn 2s infinite;
   display: block;
   font-weight: bold;
 }
 
 .header_title {
-  color: white;
+  color: #fcdab7;
   display: block;
   margin-top: 5px;
 }
@@ -49,5 +52,15 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .header_intro {
+    font-size: 18px;
+  }
+
+  .header_changingTitle {
+    font-size: 22px;
   }
 }

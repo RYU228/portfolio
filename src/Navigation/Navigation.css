@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 1% 0;
   font-family: "Ubuntu", sans-serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: bold;
   font-style: italic;
   border-bottom: 1px #b9b9b9 solid;
@@ -20,7 +20,7 @@
 }
 
 .navigation_ul li:hover {
-  color: black;
+  color: #133b5c;
 }
 
 .navigation_ul li + li {
@@ -28,5 +28,11 @@
 }
 
 .color_black {
-  color: black;
+  color: #133b5c;
+}
+
+@media (max-width: 768px) {
+  .navigation_container {
+    font-size: 24px;
+  }
 }

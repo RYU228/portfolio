@@ -8,9 +8,9 @@ class About extends Component {
             <div className="about_container">
                 <div className="about">
                     <span className="about_title">Who</span>
-                    <div className="about_content">
+                    <div className="about_info">
                         <img src={myPic}/>
-                        <div>
+                        <div className="about_content">
                             안녕하세요. 프론트엔드 개발자 류근률 입니다.
                             <br/>
                             웹 개발을 시작하며 기본기를 탄탄히 하기 위해 바닐라 자바스크립트부터 차근차근 공부하였습니다.
@@ -28,25 +28,25 @@ class About extends Component {
                         <div className="front_skills">
                             <div className="front_html">
                                 <div
-                                className="html_logo">
+                                className="html_logo logos">
                                 </div>
                                 <span>HTML</span>
                             </div>
                             <div className="front_css">
                                 <div
-                                className="css_logo">
+                                className="css_logo logos">
                                 </div>
                                 <span>CSS</span>
                             </div>
                             <div className="front_javascript">
                                 <div
-                                className="javascript_logo">
+                                className="javascript_logo logos">
                                 </div>
                                 <span>Javascript</span>
                             </div>
                             <div className="front_react">
                                 <div
-                                className="react_logo">
+                                className="react_logo logos">
                                 </div>
                                 <span>React</span>
                             </div>
@@ -57,19 +57,19 @@ class About extends Component {
                     <div className="back_skills">
                     <div className="back_nodejs">
                                 <div
-                                className="nodejs_logo">
+                                className="nodejs_logo logos">
                                 </div>
                                 <span>NodeJS</span>
                             </div>
                             <div className="back_mongodb">
                                 <div
-                                className="mongodb_logo">
+                                className="mongodb_logo logos">
                                 </div>
                                 <span>Mongodb</span>
                             </div>
                             <div className="back_mongoose">
                                 <div
-                                className="mongoose_logo">
+                                className="mongoose_logo logos">
                                 </div>
                                 <span>Mongoose</span>
                             </div>

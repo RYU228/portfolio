@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 20px 0;
   animation: slide_about 1s;
+  background-color: #e7e7e7;
 }
 
 @keyframes slide_about {
@@ -21,19 +22,25 @@
   font-size: 32px;
   font-style: italic;
   margin-bottom: 25px;
-  color: #31a5f8;
+  color: #133b5c;
 }
 
-.about_content {
+.about_info {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-family: "Open Sans", sans-serif;
 }
 
-.about_content img {
-  width: 20%;
-  height: 20%;
+.about_info img {
+  width: 25%;
+  height: 25%;
   border-radius: 50%;
+  margin-left: 5%;
+}
+
+.about_content {
+  margin: 0 5%;
 }
 
 .about_skill {
@@ -45,20 +52,21 @@
   font-size: 32px;
   font-style: italic;
   margin-bottom: 25px;
-  color: #31a5f8;
+  color: #133b5c;
 }
 
 .skill_front {
-  border-top: 2px #999999 solid;
+  border-top: 2px #1e5f74 solid;
   margin-left: 10px;
 }
 
 .front_title {
   position: relative;
+  color: #1e5f74;
   top: -14px;
   padding-right: 10px;
   font-size: 20px;
-  background-color: white;
+  background-color: #e7e7e7;
 }
 
 .front_skills {
@@ -109,17 +117,18 @@
 }
 
 .skill_back {
-  border-top: 2px #999999 solid;
+  border-top: 2px #1e5f74 solid;
   margin-left: 10px;
   margin-top: 30px;
 }
 
 .back_title {
   position: relative;
+  color: #1e5f74;
   top: -14px;
   padding-right: 10px;
   font-size: 20px;
-  background-color: white;
+  background-color: #e7e7e7;
 }
 
 .back_skills {
@@ -156,7 +165,52 @@
   background-image: url("../Images/skills/mongoose.png");
   background-size: 100%;
   background-repeat: no-repeat;
-  margin-top: 40px;
+  margin-top: 50px;
   width: 100px;
-  height: 80px;
+  height: 70px;
+}
+
+@media (max-width: 768px) {
+  .about_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about_info img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .about_title {
+    font-size: 24px;
+  }
+
+  .skill_title {
+    font-size: 24px;
+  }
+
+  .front_skills {
+    flex-wrap: wrap;
+  }
+
+  .back_skills {
+    flex-wrap: wrap;
+  }
+
+  .logos {
+    width: 80px;
+    height: 100px;
+  }
+
+  .mongoose_logo {
+    margin-top: 60px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about_info img {
+    width: 70%;
+    height: 70%;
+  }
 }

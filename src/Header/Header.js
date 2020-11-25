@@ -30,7 +30,7 @@ class Header extends Component {
         return (
             <div className="header_container">
                 <div className="header_content">
-                    <img src={myPic} />
+                    {/* <img src={myPic} /> */}
                     <div className="header_intro">
                         <span className="header_title">안녕하세요</span>
                         <span className="header_changingTitle">도전정신이 있는</span>

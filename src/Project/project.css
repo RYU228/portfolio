@@ -2,6 +2,7 @@
 
 .project_container {
   width: 80%;
+  height: 44.5vh;
   margin: 0 auto;
   animation: slide_project 1s;
 }
@@ -25,6 +26,7 @@
   filter: grayscale(100%) blur(2px);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  color: #fcdab7;
 }
 
 .project:hover {
@@ -34,8 +36,8 @@
 
 .project_title {
   font-weight: bold;
-  font-size: 3rem;
-  background-color: #e3f2fd;
+  font-size: 48px;
+  background: linear-gradient(to bottom right, #1d2d50 30%, #1e5f74);
   text-align: center;
   font-family: "Goldman", cursive;
   padding: 10% 0;
@@ -51,8 +53,25 @@
   border-bottom-right-radius: 30px;
   border: 1px #b9b9b9 solid;
   border-top: none;
+  color: #1e5f74;
 }
 
 .project_content span {
   margin: 0px 10px;
+}
+
+@media (max-width: 768px) {
+  .project_container {
+    height: 60vh;
+  }
+
+  .project {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .project_title {
+    font-size: 28px;
+  }
 }
