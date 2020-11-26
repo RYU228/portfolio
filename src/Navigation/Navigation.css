@@ -33,6 +33,7 @@
 
 @media (max-width: 768px) {
   .navigation_container {
+    width: 100%;
     font-size: 24px;
   }
 }

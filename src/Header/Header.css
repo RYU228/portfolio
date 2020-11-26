@@ -56,6 +56,11 @@
 }
 
 @media (max-width: 768px) {
+  .header_container {
+    width: 90%;
+    height: 25vh;
+  }
+
   .header_intro {
     font-size: 18px;
   }

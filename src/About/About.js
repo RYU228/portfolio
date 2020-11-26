@@ -11,7 +11,9 @@ class About extends Component {
                     <div className="about_info">
                         <img src={myPic}/>
                         <div className="about_content">
-                            안녕하세요. 프론트엔드 개발자 류근률 입니다.
+                            안녕하세요.
+                            <br/>
+                            프론트엔드 개발자 류근률 입니다.
                             <br/>
                             웹 개발을 시작하며 기본기를 탄탄히 하기 위해 바닐라 자바스크립트부터 차근차근 공부하였습니다.
                             <br/>
