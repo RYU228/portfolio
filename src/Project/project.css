@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 
 .project_container {
   width: 80%;
@@ -60,6 +61,85 @@
   margin: 0px 10px;
 }
 
+.project_modalOverlay {
+  display: none;
+  background-color: rgba(200, 200, 200, 0.486);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.project_modalContainer {
+  width: 90%;
+  height: 70%;
+  background-color: white;
+  position: relative;
+  top: 15%;
+  left: 5%;
+  border-radius: 15px;
+}
+
+.project_closeBtn {
+  font-size: 20px;
+  position: relative;
+  top: 1%;
+  left: 97%;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.project_modal {
+  height: 90%;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.image {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 18%;
+}
+
+.image5 {
+  height: 30%;
+  margin-bottom: 10%;
+}
+
+.modal_footer {
+  text-align: center;
+  background-color: grey;
+  height: 30%;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 20px;
+}
+
+.modal_footer span {
+  display: block;
+  position: relative;
+  top: 10%;
+}
+
+.modal_footer button {
+  position: relative;
+  top: 20%;
+  padding: 8px 15px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .project_container {
     width: 100%;
@@ -74,5 +154,30 @@
 
   .project_title {
     font-size: 28px;
+  }
+
+  .project_closeBtn {
+    top: 2%;
+    left: 91%;
+  }
+
+  .project_modal {
+  }
+
+  .image {
+    height: 45%;
+  }
+
+  .image5 {
+    height: 20%;
+  }
+
+  .modal_footer {
+    font-size: 16px;
+  }
+
+  .modal_footer button {
+    font-size: 16px;
+    padding: 3px 8px;
   }
 }
